@@ -14,5 +14,5 @@ console.log(paciente);
 console.log(peso);
 
 var tdAltura = document.querySelector("info-altura");
-var alyra = tdAltura.textContent;
+var altura = tdAltura.textContent;
 console.log(altura);
