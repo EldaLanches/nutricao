@@ -4,8 +4,7 @@ console.log(titulo.textContent);
 titulo.textContent = ("Elda Nutrição");
 
 var paciente = document.querySelector("#primeiro-paciente");
-
-console.log(".info-nome");
+var tdNome = document.querySelector("info-nome")
 
 var tdPeso = paciente.querySelector(".info-peso");
 var peso = tdPeso.textContent;
