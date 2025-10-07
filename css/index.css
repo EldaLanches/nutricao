@@ -71,7 +71,7 @@ th{
 }
 
 label{
-	color: #045308;
+	color: #555555;
 	display: block;
 	margin-bottom: .2em;
 }
@@ -120,7 +120,7 @@ button:active{
 }
 
 button[disabled=disabled], button:disabled {
-    background-color: gray;
+    background-color: rgb(1, 73, 11);
 	border-color: darkgray;
 
 }
