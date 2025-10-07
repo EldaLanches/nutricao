@@ -13,6 +13,6 @@ var peso = tdPeso.textContent;
 console.log(paciente);
 console.log(peso);
 
-var tdAlura = document.querySelector("info-alura");
-var alyra = tdAlura.textContent;
+var tdAltura = document.querySelector("info-altura");
+var alyra = tdAltura.textContent;
 console.log(altura);
