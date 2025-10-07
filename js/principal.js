@@ -15,4 +15,4 @@ console.log(peso);
 
 var tdAlura = document.querySelector("info-alura");
 var alyra = tdAlura.textContent;
-console.log(alura);
+console.log(altura);
