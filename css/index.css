@@ -8,7 +8,7 @@ body{
 }
 
 header{
-	background-color: #333;
+	background-color: #013503;
 	height: 3em;
 	color: #FFF;
 	margin-bottom: 1em;
@@ -120,7 +120,7 @@ button:active{
 }
 
 button[disabled=disabled], button:disabled {
-    background-color: rgb(1, 73, 11);
+    background-color: rgb(128, 128, 128);
 	border-color: darkgray;
 
 }
