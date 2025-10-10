@@ -34,7 +34,7 @@ if (altura <= 0 || altura >= 3.00){
      tdImc.textContent = "Altura inválida!";
 }
 
-if (alturaEhValida && pesoEhValido){
+if (alturaEhValido && pesoEhValido){
     var imc = peso / (altura * altura);
     tdImc.textContent = imc;
 }
