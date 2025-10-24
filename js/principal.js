@@ -42,6 +42,6 @@ for (var i = 0; i < pacientes.length; i++) {
 }
 
 titulo.addEventListener("click", mostraMensagem);
-functionMostra(){
+function mostraMensagem(){
     alert("Olá, eu fui clicado.")
 }
