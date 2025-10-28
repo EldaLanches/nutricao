@@ -43,5 +43,5 @@ for (var i = 0; i < pacientes.length; i++) {
 
 titulo.addEventListener("click", mostraMensagem);
 function mostraMensagem(){
-    alert("Tá me catucando pq?!?")
+    alert("Olá, eu fui clicado em uma função anônima")
 }
