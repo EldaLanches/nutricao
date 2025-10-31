@@ -49,7 +49,6 @@ function mostraMensagem() {
 var botaoAdicionar = document.querySelector("#adicionar-paciente");
 botaoAdicionar.addEventListener("click", function (event) {
     event.preventDefault();
-    //alert("Olá, eu sou o botão e fui clicado");
     var from = document.querySelector("#form-adiciona");
 
     var from = from.nome.value;
