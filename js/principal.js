@@ -61,21 +61,21 @@ botaoAdicionar.addEventListener("click", function (event) {
 
     var pacienteTr = document.createElement("tr");
 
-    var tdNome = document.createElement("td");
-    var tdPeso = document.createElement("td");
-    var tdAltura = document.createElement("td");
-    var tdGordura = document.createElement("td");
+    var nomeTd = document.createElement("td");
+    var pesoTd = document.createElement("td");
+    var alturaTd = document.createElement("td");
+    var gorduraTd = document.createElement("td");
     var imcTd = document.createElement("td");
 
-    tdNome.textContent = nome;
-    tdPeso.textContent = peso;
-    tdAltura.textContent = altura;
-    tdGordura.textContent = gordura;
+    nomeTd.textContent = nome;
+    pesoTd.textContent = peso;
+    alturaTd.textContent = altura;
+    gorduraTd.textContent = gordura;
 
-    pacienteTr.appendChild(tdNome);
-    pacienteTr.appendChild(tdPeso);
-    pacienteTr.appendChild(tdAltura);
-    pacienteTr.appendChild(tdGordura);
+    pacienteTr.appendChild(nomeTd);
+    pacienteTr.appendChild(pesoTd);
+    pacienteTr.appendChild(alturaTd);
+    pacienteTr.appendChild(gorduraTd);
 
     var tabela = document.querySelector("#tabela-pacientes");
     tabela.appendChild(pacienteTr);
