@@ -72,10 +72,10 @@ botaoAdicionar.addEventListener("click", function (event) {
     tdAltura.textContent = altura;
     tdGordura.textContent = gordura;
 
-    pacienteTr.appendChild(nomeTd);
-    pacienteTr.appendChild(pesoTd);
-    pacienteTr.appendChild(alturaTd);
-    pacienteTr.appendChild(gorduraTd);
+    pacienteTr.appendChild(tdNome);
+    pacienteTr.appendChild(tdPeso);
+    pacienteTr.appendChild(tdAltura);
+    pacienteTr.appendChild(tdGordura);
 
     var tabela = document.querySelector("#tabela-pacientes");
     tabela.appendChild(pacienteTr);
