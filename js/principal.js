@@ -49,7 +49,7 @@ function mostraMensagem() {
 var botaoAdicionar = document.querySelector("#adicionar-paciente");
 botaoAdicionar.addEventListener("click", function (event) { //abre chaves do botao
     event.preventDefault();
-    alert("oi, eu fui clicado");
+    //alert("oi, eu fui clicado");
     var from = document.querySelector("#form-adiciona");
 
     var nome = from.nome.value;
