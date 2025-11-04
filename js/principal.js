@@ -47,14 +47,15 @@ function mostraMensagem() {
 }
 
 var botaoAdicionar = document.querySelector("#adicionar-paciente");
-botaoAdicionar.addEventListener("click", function (event) {
+botaoAdicionar.addEventListener("click", function (event) { //abre chaves do botao
     event.preventDefault();
+    alert("oi, eu fui clicado");
     var from = document.querySelector("#form-adiciona");
 
-    var from = from.nome.value;
-    var from = from.peso.value;
-    var from = from.altura.value;
-    var from = from.gordura.value;
+    var nome = from.nome.value;
+    var peso = from.peso.value;
+    var altura = from.altura.value;
+    var gordura = from.gordura.value;
 
     var pacienteTr = document.createElement("tr");
 
