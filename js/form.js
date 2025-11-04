@@ -21,6 +21,7 @@ botaoAdicionar.addEventListener("click", function (event) { //abre chaves do bot
     pesoTd.textContent = peso;
     alturaTd.textContent = altura;
     gorduraTd.textContent = gordura;
+    imcTd.textContent = calculaImc(peso, altura);
 
     pacienteTr.appendChild(nomeTd);
     pacienteTr.appendChild(pesoTd);
