@@ -3,7 +3,7 @@ botaoAdicionar.addEventListener("click", function (event) { //abre chaves do bot
     event.preventDefault();
     
     var form = document.querySelector("#form-adiciona");
-    var paciente = obtemPacienteDoFormulario(form); 
+    var pacienteTr = obtemPacienteDoFormulario(form); 
 
     var pacienteTr = document.createElement("tr");
 
