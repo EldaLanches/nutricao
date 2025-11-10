@@ -38,5 +38,5 @@ function obtemPacienteDoFormulario(form) {
         gordura: form.gordura.value,
         imc: calculaImc(form.peso.value, form.altura.value)
     }
-    return paciente;
+    return paciente;/*faltava esse tb */
 }
