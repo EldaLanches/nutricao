@@ -29,12 +29,12 @@ botaoAdicionar.addEventListener("click", function (event) { //abre chaves do bot
     tabela.appendChild(pacienteTr);
 });
 
-function obtemPacienteDoFormulario(from) {
+function obtemPacienteDoFormulario(form) {
     var paciente = {
-        nome: from.nome.value;
-        peso: from.peso.value;
-        altura: from.altura.value;
-        gordura: from.gordura.value;
+        nome: form.nome.value,/*esta escrito FROM ao inves de form*/
+        peso: form.peso.value, /* todos tinham ponto e virgula no final e era VIRGULA KKK */
+        altura: form.altura.value,
+        gordura: form.gordura.value,
         imc: calculaImc(form.peso.value, form.altura.value)
     }
 }
