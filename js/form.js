@@ -1,8 +1,9 @@
 var botaoAdicionar = document.querySelector("#adicionar-paciente");
 botaoAdicionar.addEventListener("click", function (event) { //abre chaves do botao
     event.preventDefault();
-    //alert("oi, eu fui clicado");
-    var from = document.querySelector("#form-adiciona");
+    
+    var form = document.querySelector("#form-adiciona");
+    var pacienteTr = obtemPacienteDoFormulario(form); /*corrigido*/
 
     var pacienteTr = document.createElement("tr");
 
@@ -26,7 +27,6 @@ botaoAdicionar.addEventListener("click", function (event) { //abre chaves do bot
 
     var tabela = document.querySelector("#tabela-pacientes");
     tabela.appendChild(pacienteTr);
-
 });
 
 function obtemPacienteDoFormulario(from) {
