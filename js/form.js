@@ -3,7 +3,7 @@ botaoAdicionar.addEventListener("click", function (event) { //abre chaves do bot
     event.preventDefault();
     
     var form = document.querySelector("#form-adiciona");
-    var pacienteTr = obtemPacienteDoFormulario(form); /*corrigido*/
+    var paciente = obtemPacienteDoFormulario(form); 
 
     var pacienteTr = document.createElement("tr");
 
@@ -19,7 +19,6 @@ botaoAdicionar.addEventListener("click", function (event) { //abre chaves do bot
     var gorduraTd = document.createElement("td");
     var imcTd = document.createElement("td");
 
-  
     pacienteTr.appendChild(nomeTd);
     pacienteTr.appendChild(pesoTd);
     pacienteTr.appendChild(alturaTd);
